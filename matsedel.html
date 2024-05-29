@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Maten som du kan förvänta dig här">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <img class="logo" src="beige.webp" alt="logo">
+        <a href="index.html">Hem</a>
+        <a href="boka.html">Boka</a>
+        <a href="hitta.html">Hitta</a>
+        <a href="matsedel.html" class="active">Matsedel</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    <div class="main">
+        <article class="left">
+            <h2>Frukost</h2>
+            <h3>Buffe:</h3>
+            <p>• Färska bakverk: Croissanter, ensaimadas, och olika sorters bröd.<br>
+                • Katalanska specialiteter: Pa amb tomàquet (bröd med tomat), churros med varm choklad.<br>
+                • Pålägg och ostar: Iberico-skinka, chorizo, manchego-ost, brie.<br>
+                • Äggstation: Omeletter, pocherade ägg, scrambled eggs, ägg Benedict.<br>
+                • Frukt och yoghurt: Färsk frukt, bär, grekisk yoghurt, honung, granola.<br>
+                • Drycker: Färskpressad apelsinjuice, kaffe, te, smoothies.</p>
+            <h2>Snacks och mellanmål</h2>
+            <p>• Snacks och mellanmål
+                • Mini bocadillos (smörgåsar) med olika fyllningar som iberico-skinka, manchego och tomat.<br>
+                • Oliv- och osttallrikar.<br>
+                • Färska frukter och nötblandningar.<br>
+                • Små tapas som pimientos de padrón, albóndigas (köttbullar) och gambas al ajillo (vitlöksräkor).</p>
+            <h2>Dryckesmeny</h2>
+            <p>• Katalanska viner: Cava, Priorat, Penedès.<br>
+                • Internationella viner och champagne.<br>
+                • Katalanska och spanska ölsorter.<br>
+                • Signaturcocktails inspirerade av Barcelona, som "Gaudí's Dream" och "Barcelona Sunset".<br>
+                • Alkoholfria alternativ som mocktails, färskpressade juicer och teer.</p>
+        </article>
+        <article class="right">
+            <h2>Lunch</h2>
+            <h3>Förrätter</h3>
+            <p>• Gazpacho med krispiga grönsaksstavar.<br>
+                • Patatas bravas med aioli och tomatsås.<br>
+                • Ensalada de pulpo (bläckfisksallad) med paprika och olivolja.</p>
+            <h3>Huvudrätter</h3>
+            <p>• Paella mixta med skaldjur och kyckling.<br>
+                • Suquet de peix (fiskgryta) med saffran och potatis.<br>
+                • Vegetarisk fideuà (nudelrätt) med grönsaker och svamp.</p>
+            <h3>Efterrätter</h3>
+            <p>• Crema Catalana med karamelliserat socker.<br>
+                • Churros med chokladsås.<br>
+                • Färsk fruktsallad med mynta och lime.</p>
+            <h2>Middag</h2>
+            <h3>Förrätter</h3>
+            <p>• Carpaccio på Wagyu-biff med rucola och parmesan.<br>
+                • Bläckfisk med citron och persiljesås.<br>
+                • Vit sparris med hollandaise och pocherat ägg.</p>
+            <h3>Huvudrätter</h3>
+            <p>• Katalansk hummer med ris och saffranssås.<br>
+                • Lammkotletter med rosmarin och vitlök, serverade med rostad potatis.<br>
+                • Grillad sjötunga med citronkaprissås och säsongens grönsaker.</p>
+            <h3>Efterrätter</h3>
+            <p>• Baklava med valnötter och honung.<br>
+                • Tarta de Santiago (mandelkaka) med vaniljglass.<br>
+                • Assorterade katalanska ostar med fikonmarmelad.</p>
+        </article>
+    </div>
+    <div class="footer">
+        <p>Plaça Rosa del Vents, 1, Final Passeig de Joan de Borbó Barcelona, 08039, Spain</p>
+        <p>+34 93-312-3506</p>
+    </div>
+    <div class="underfooter">
+        <img src="hotelb.webp" alt="dining room">
+        <img src="hotela.webp" alt="swimming pool">
+    </div>
+</body>
+
+</html>

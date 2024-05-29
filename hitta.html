@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hitta oss och andra sevärdheter runt staden">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <img class="logo" src="purple.webp" alt="logo">
+        <a href="index.html">Hem</a>
+        <a href="boka.html">Boka</a>
+        <a href="hitta.html" class="active">Hitta</a>
+        <a href="matsedel.html">Matsedel</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    <div class="main">
+        <article class="left">
+            <h2>Hitta</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26762.867002796535!2d2.1752687577973746!3d41.37018467744943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a3b185625025%3A0x59e80c780f7e2f0b!2sW%20Barcelona!5e0!3m2!1ssv!2sse!4v1716392867108!5m2!1ssv!2sse"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </article>
+        <article class="right">
+            <h2>Sevärdheter</h2>
+            <p>• Sagrada Família<br>
+                • Parc Güell<br>
+                • La Rambla<br>
+                • Barri Gòtic<br>
+                • Camp Nou</p>
+            <img src="sagradafamilia.webp" alt="church">
+            <img src="parcguell.webp" alt="park">
+        </article>
+    </div>
+    <div class="footer">
+        <p>Plaça Rosa del Vents, 1, Final Passeig de Joan de Borbó Barcelona, 08039, Spain</p>
+        <p>+34 93-312-3506</p>
+    </div>
+    <div class="underfooter">
+        <img src="hotelb.webp" alt="dining room">
+        <img src="hotela.webp" alt="swimming pool">
+    </div>
+</body>
+
+</html>
